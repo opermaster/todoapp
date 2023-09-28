@@ -1,0 +1,61 @@
+html{
+    font-family: 'Roboto', sans-serif;
+}
+*
+{
+    box-sizing: border-box;
+}
+h2
+{
+    color: rgb(34, 173, 106);
+    font-size: 4rem;
+    text-align: center;
+}
+form
+{
+    margin:auto;
+    max-width: 100%;
+    width: 600px;
+}
+.title_input
+{
+    display: block;
+    padding:1rem 2rem ;
+    text-align: center;
+    width: 100%;
+    font-size: 2rem;
+}
+.title_input::placeholder
+{
+    color:#888
+}
+.add_button
+{
+    color: #888;
+    font-size: 2rem;
+    height: 3rem;
+    margin:auto;
+    width: 100%;
+}
+.todos
+{
+    list-style-type: none;
+    box-shadow:1px 1px 10px #888;
+    padding-left: 1rem;
+    font-size: 1.5rem;
+    margin:auto;
+    max-width: 100%;
+    width: 600px;
+}
+.todos li
+{
+    margin-top: 1.5rem;
+    font-size: 2rem;
+    padding:0.5rem;
+    color: rgb(41, 68, 94);
+    opacity: 0.7;
+}
+.todos li.completed
+{
+    text-decoration: line-through;
+}
